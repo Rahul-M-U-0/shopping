@@ -31,9 +31,9 @@ class ProductScreen extends StatelessWidget {
           ),
         ),
         actions: const [
-          Icon(
-            Icons.menu,
-            size: 35,
+          Image(
+            image: AssetImage("assets/icons/menu-bar.png"),
+            height: 40,
           ),
           SizedBox(
             width: 10,

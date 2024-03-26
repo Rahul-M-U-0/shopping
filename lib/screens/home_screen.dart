@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
   List<Widget> gridItemList = [
     GridItem(iconData: Icons.groups_rounded, text: "Customers"),
     GridItem(iconData: Icons.shopping_cart_checkout_sharp, text: "Products"),
-    GridItem(iconData: Icons.add_chart, text: "New Order"),
+    GridItem(iconData: Icons.production_quantity_limits, text: "New Order"),
     GridItem(iconData: Icons.keyboard_return_rounded, text: "Return Order"),
     GridItem(iconData: Icons.attach_money, text: "Add Payment"),
     GridItem(iconData: Icons.playlist_add_check, text: "Today's Order"),

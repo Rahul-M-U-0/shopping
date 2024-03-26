@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shopping_01/providers/customers_provider.dart';
 import 'package:shopping_01/providers/products_provider.dart';
-import 'package:shopping_01/screens/home_screen.dart';
+import 'package:shopping_01/screens/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       ],
       child: const MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: HomeScreen(),
+        home: MainScreen(),
       ),
     );
   }
